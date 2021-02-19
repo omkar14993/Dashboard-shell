@@ -3,11 +3,11 @@ This is a simple Dashboard and Sidebar UI created purely using HTML, CSS and van
 This Application has been implemented for Desktop and Tablet screens.
 
 Landing pages have been created for following Sidebar menus:- Home, Dashboard, Bug, Epic.
-Clicking on any other menu items will re-driect to default page.
+Clicking on any other menu items will re-direct to default page.
 
 Features:-
- - Hovering over the Sidebar will automatically expand/collapse
- - clicking  sub-menu icon inside the sidebar will expand/collapse the sub-menu items
+ - Hovering over the Sidebar will automatically expand/collapse.
+ - clicking  sub-menu icon inside the sidebar will expand/collapse the sub-menu items.
  - Basic SPA javascript router is implemented to render dynamic content.
 
 
