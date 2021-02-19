@@ -1,4 +1,5 @@
 This is a simple Dashboard and Sidebar UI created purely using HTML, CSS and vanilla JS.
+Deployed using github pages  https://omkar14993.github.io/Dashboard-shell/
 
 This Application has been implemented for Desktop and Tablet screens.
 
