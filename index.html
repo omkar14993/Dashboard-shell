@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Single Page Application</title>
+</head>
+
+<body>
+    <div class="sidebar" id="navbar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+        <nav class="nav">
+            <div>
+                <div class="nav__brand">
+                    <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                    <a href="#" class="nav__logo">Application Shell</a>
+                </div>
+                <div class="nav__list">
+                    <a href="#/home" class="nav__link ">
+                        <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Home</span>
+                    </a>
+                    <a href="#/dashboard" class="nav__link">
+                        <ion-icon name="clipboard-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">My Dashboard</span>
+                    </a>
+                    <div class="nav__link collapse">
+                        <ion-icon name="add-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Create</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#/bug" class="collapse__sublink">Bug</a>
+                            <a href="#/epic" class="collapse__sublink">Epic</a>
+                            <a href="#" class="collapse__sublink">Story</a>
+                        </ul>
+                    </div>
+                    <a href="#/bug" class="nav__link">
+                        <ion-icon name="bug-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Bugs</span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Goals</span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <ion-icon name="settings-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Settings</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="section" class="section"></div>
+
+    <!-- ===== import Icons ===== -->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+    <!-- ===== import main.js ===== -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
